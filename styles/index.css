@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap');
+
+body {
+    width: 100%;
+
+}
+
+
+/* nav-section-style start*/
+
+/* nav-logo-titles start */
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 52px;
+    margin-left: 135px;
+    margin-right: 135px;
+
+
+
+}
+
+.nav-logo-titles {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+    height: 45px;
+
+
+}
+
+.nav-logo-titles img {
+    width: 48px;
+    height: 56.008px;
+    flex-shrink: 0;
+}
+
+.nav-logo-titles p {
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+
+}
+
+.s-title {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+/* nav-logo-titles ends */
+
+/* nav-link-titles start */
+.nav-link-titles {
+    display: inline-flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    padding-right: 100px;
+}
+
+.nav-link-titles .home-color {
+    color: #FF5400;
+}
+
+.nav-link-titles a {
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* nav-link-titles ends */
+/* nav-section-style ends*/
+
+/* styless banner-section start */
+.banner-section {
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 16px;
+
+    /* background:; */
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 50%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    margin-left: 135px;
+  
+
+
+
+
+}
+
+.banner-title {
+    text-align: center;
+    margin-top: 50px;
+
+
+}
+
+.banner-title h2 {
+    width: 596px;
+    height: 80px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    padding-left: 287px;
+    padding-right: 287px;
+    padding-top: 100px;
+}
+
+.banner-title p {
+    width: 676px;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 247px;
+    padding-right: 247px;
+    padding-bottom:
+
+}
+
+/* input and select type start */
+select {
+    font-size: 0.9rem;
+    padding-top: 16px;
+    padding-right: 113px;
+    padding-left: 15px;
+
+    padding-bottom: 16px;
+
+}
+
+/* styless banner-section start */
+.input-section{
+}
+select {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top:16px;
+    padding-right:113px;
+     padding-left:15px;
+    
+    padding-bottom:16px;
+
+
+}
+/* styless banner-section start */
+/* our-popular-tours starts */
+.popolar-tours{
+    margin-left: 135px;
+    margin-right: 135px;
+
+}
+.popolar-tours h2{
+    color: #131318;
+    
+    font-size: 40px;
+    font-weight: 800;
+}
+/* our-popular-tours ends */
