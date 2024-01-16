@@ -357,10 +357,77 @@ body {
     font-weight: 800;
     line-height: normal;
 }
+/* choose */
 
+.choose {
+    margin-top: 4rem;
+    text-align: center;
+}
 
+.choose-heading h2 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 2rem 0 1.5rem;
+}
+
+.choose-heading p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.choose-image-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+.choose-image-section .card {
+    
+    width: calc(50% - 1.5rem / 2);
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: left;
+}
+
+.card-title h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.card-1{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.card-2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.card-3{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.card-title p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
 /* video section */
-/* popular tour */
 .video-section{
     padding-top: 100px;
     padding-bottom: 50px;
@@ -516,3 +583,62 @@ body {
     font-weight: 800;
     line-height: normal;
 }
+/* footer section */
+
+.footer-container {
+    padding: 4rem 15rem;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-heading {
+    /* width: min-content; */
+    margin: 0 auto;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    color: #131318;
+    font-weight: 800;
+    margin: 0;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+.footer-primary{
+    color: #FF5400;
+}
+
+.footer-description {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.footer-icon-container {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.footer-icon-container a {
+    color: #131318;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 1.5rem;
+   
+
+}
+
+.footer-container .footer-icon-container hr {
+    background: rgba(19, 19, 24, 0.10);
+  
+}
+
+.footer-icon-container p{
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+     
+}
+
+
