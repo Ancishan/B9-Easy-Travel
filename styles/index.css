@@ -358,7 +358,6 @@ body {
     line-height: normal;
 }
 /* choose */
-
 .choose {
     margin-top: 4rem;
     text-align: center;
@@ -380,23 +379,19 @@ body {
 }
 
 .choose-image-section {
-    width: 100%;
-    height: auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 1rem;
     margin-top: 3rem;
-    margin-left: 135px;
-    margin-right: 135px;
 }
 
 .choose-image-section .card {
-    
     width: calc(50% - 1.5rem / 2);
     margin: 0 auto;
     box-sizing: border-box;
     border-radius: 1rem;
-    padding: 2rem;
+    padding-right: 2rem;
+    padding-left: 135px;
     text-align: left;
 }
 
@@ -405,21 +400,6 @@ body {
     font-size: 24px;
     font-weight: 800;
 }
-.card-1{
-    border-radius: 16px;
-border: 1px solid rgba(251, 181, 99, 0.20);
-background: rgba(251, 181, 99, 0.05);
-}
-.card-2{
-    border-radius: 16px;
-    border: 1px solid rgba(41, 206, 246, 0.20);
-    background: rgba(41, 206, 246, 0.05);
-}
-.card-3{
-    border-radius: 16px;
-    border: 1px solid rgba(233, 68, 68, 0.20);
-    background: rgba(233, 68, 68, 0.05);
-}
 
 .card-title p {
     color: #5A5A5D;
@@ -427,6 +407,13 @@ background: rgba(251, 181, 99, 0.05);
     font-weight: 400;
     line-height: 26px;
 }
+
+
+
+
+
+
+.
 /* video section */
 .video-section{
     padding-top: 100px;
