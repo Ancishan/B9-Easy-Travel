@@ -358,8 +358,12 @@ body {
     line-height: normal;
 }
 /* choose */
+.choose{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
-.choose .choose-heading h2 {
+.choose-content .choose-heading h2 {
     color: #131318;
     text-align: center;
     font-size: 2.5rem;
@@ -367,7 +371,7 @@ body {
     margin: 2rem 0 1.5rem;
 }
 
-.choose .choose-heading p {
+.choose-content  .choose-heading p {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-size: 16px;
@@ -375,12 +379,12 @@ body {
     line-height: 26px;
 }
 
-.choose .choose-image-section-1{
+.choose-content  .choose-image-section-1{
     display: flex;
     justify-content: space-between;
 
 }
-.choose .choose-image-section-1 .card-1{
+.choose-content  .choose-image-section-1 .card-1{
     width: 573px;
     height: 284px;
     flex-shrink: 0;
@@ -392,7 +396,7 @@ body {
     padding-bottom: 32px;
     padding-left: 32px;
 }
-.choose .choose-image-section-1 .card-2{
+.choose-content  .choose-image-section-1 .card-2{
     width: 573px;
     height: 284px;
     flex-shrink: 0;
@@ -404,10 +408,10 @@ body {
     padding-bottom: 32px;
     padding-left: 32px;
 }
-.choose .choose-image-section-2{
+.choose-content  .choose-image-section-2{
     margin-top: 24px;
 }
-.choose .choose-image-section-2 .card{
+.choose-content  .choose-image-section-2 .card{
     width: 573px;
     height: 284px;
     flex-shrink: 0;
@@ -421,13 +425,10 @@ body {
     margin-bottom: 100px;
     margin: 0 auto;
 }
-.card-title h3{
+.choose-content .card-title h3{
     padding-top: 32px;
-    padding-bottom: 16px;
+    padding-bottom: 10px;
 }
-
-
-
 .card-title p {
     color: #5A5A5D;
     font-size: 16px;
