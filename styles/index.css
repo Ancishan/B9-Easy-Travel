@@ -624,7 +624,7 @@ body {
     line-height: 26px;
     margin-bottom: 32px; 
 }
-.footer-container .footer-content .footer-icon-content{
+ .footer-content .footer-icon-content{
     display: flex;
     margin-left: 450px;
     margin-right: 500px;
